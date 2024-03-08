@@ -5,8 +5,15 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
+The purpose of this analysis is to develop a predictive model to  assess the risk associated with loans. 
+By using machine learning model it can accurately differentiates the loans whether its healthy or high-risk.
+
 * Explain what financial information the data was on, and what you needed to predict.
+The dataset contains financial information related to loan_size,interest_rate,borrower_income,debt_to_income,num_of_accounts,derogatory_marks,total_debt,loan_status. 
+The target variable we needed to predict is the loan status, which indicates whether a loan is healthy (0) or high-risk (1).
+
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
